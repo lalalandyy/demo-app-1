@@ -1,5 +1,6 @@
 <manifest>
-    <application android:debuggable="true">
+    <!-- Security: android:allowBackup set to false to prevent automatic backup of sensitive data -->
+    <application android:debuggable="true" android:allowBackup="false">
         <activity>
             <intent-filter android:exported="true">
                 <action android:name="android.intent.action.VIEW" />
